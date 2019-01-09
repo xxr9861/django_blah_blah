@@ -1,0 +1,9 @@
+* first steps
+* what do i need to install?
+** what is this env or virtual env or virtual environment?
+* how to find documentation?
+** online documentation
+** offline documentation
+* understanding some big picture concepts
+** what is model view controller (mpv)?
+** how does this mpv compare with design patterns that i kind of heard/learned in java?
