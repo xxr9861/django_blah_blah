@@ -1,18 +1,18 @@
 * first steps
-
-mkdir mysite and cd into it
+#+BEGIN_SRC sh
+mkdir mysite && cd mysite
 
 virtualenv .
 
-(total size is like 16 mb)
+# (total size is like 16 mb)
 
-list the files, there is a bin folder in addition to others
+# list the files, there is a bin folder in addition to others
 
 source bin/activate
 
 pip install django
 
-(now total size is just shy of 60mb)
+# (now total size is just shy of 60mb)
 
 python -m django --version
 
@@ -28,30 +28,36 @@ source ./bin/activate
 
 python manage.py runserver
 
-(access on browser (localhost:8000))
+# (access on browser (localhost:8000))
 
-#create an app
+# create an app
 
 mkdir polls && cd polls
 
-edit views.py (make modifications as given in tutorial)
+# edit views.py (make modifications as given in tutorial)
 
-edit the polls/urls.py file (make modifications as given in tutorial)
+# edit the polls/urls.py file (make modifications as given in tutorial)
 
-edit the mysite/urls.py file (make modifications as given in tutorial)
+# edit the mysite/urls.py file (make modifications as given in tutorial)
+
+#+END_SRC
 
 
 
 * what do i need to install?
+#+BEGIN_SRC sh
 sudo apt-get install python3
 sudo apt-get install pip
 
+# The proper way of installing python so that it does not touch root
 
-The proper way of installing python so that it does not touch root
-
-simply run
+# simply run
 
 virtualenv -p python3 envname
+
+#+END_SRC
+
+
 
 
 ** what is this env or virtual env or virtual environment?
@@ -59,6 +65,7 @@ virtualenv -p python3 envname
 ** online documentation
 ** offline documentation 
 *** the python interpreter
+#+BEGIN_SRC python
 import os
 help()
 help(os)
@@ -66,15 +73,21 @@ help(os)
 import django
 dir(django)
 help(django)
+
+#+END_SRC
 *** pydoc in the browser
+#+BEGIN_SRC sh
 man pydoc
 pydoc -w os
-you find os.html
-open os.html in browser
+ls os.html
+firefox os.html
 
 pydoc -p 4000
-in your browser you can access the page
-localhost:4000
+
+firefox http://localhost:4000
+
+#+END_SRC
+
 
 * understanding some big picture concepts
 ** what is model view controller (mpv)?
