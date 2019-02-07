@@ -1,19 +1,12 @@
 #! /bin/bash
 
 # ::YOU ARE HERE::::YOU ARE HERE::::YOU ARE HERE::::YOU ARE HERE::::YOU ARE HERE::::YOU ARE HERE::
-# create the virtual environment: virtualenv .
-# create the parent project: python3 manage.py startproject name_of_project
-# create the apps by running this script, ::YOU ARE HERE::::YOU ARE HERE::::YOU ARE HERE::
+# make sure you are not in the home directory
+# https://tutorial.djangogirls.org
+# copied from https://tutorial.djangogirls.org
 
 
-# create the apps
-# is this the app directory
-# confirm the files that i expect are present
-# source the executables
-# command to create the app
-# do the relevant changes
-# this script is to be used after you have set up the virtual environment and the parent project
-# this script is for creating apps under the parent project
+
 
 conti(){
 
@@ -429,3 +422,6 @@ conti
 python3 manage.py runserver 
 
 # there is a lot of redundant stuff in here, you need to clean up
+
+# https://tutorial.djangogirls.org
+# copied from https://tutorial.djangogirls.org
